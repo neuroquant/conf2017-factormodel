@@ -1,0 +1,106 @@
+\documentclass[nocrop,final,onecolumn,openacc]{bluetechreport}
+
+%%%% *** Do not adjust lengths that control margins, column widths, etc. ***
+
+%%%%%%%%%%% Defining Enunciations  %%%%%%%%%%%
+\newtheorem{theorem}{\bf Theorem}[section]
+\newtheorem{condition}{\bf Condition}[section]
+\newtheorem{corollary}{\bf Corollary}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{lipsum}
+
+\pagestyle{empty}
+\enlargethispage{24pt}
+
+\begin{document}
+
+%%%% Article title to be placed here
+\title{A one column research article template}
+
+\author{%%%% Author details
+X. X. First author$^{1}$\footnote{\email{email@example.com}}, X. Second author$^{2}$ and X. Third author$^{3}$}
+
+%%%%%%%%% Insert author address here
+\address{$^{1}$First author address\\
+$^{2}$Second author address\\
+$^{3}$Third author address}
+
+% %%%% Subject entries to be placed here %%%%
+% \subject{xxxxx, xxxxx, xxxx}
+
+%%%% Keyword entries to be placed here %%%%
+\keywords{xxxx, xxxx, xxxx}
+
+% %%%% Insert corresponding author and its email address}
+% \corres{Insert corresponding author name\\
+% \email{xxx@xxxx.xx.xx}}
+
+%%%% Abstract text to be placed here %%%%%%%%%%%%
+\begin{abstract}
+The abstract text goes here. The abstract text goes here. The abstract text goes here. The abstract text goes here.
+The abstract text goes here. The abstract text goes here. The abstract text goes here. The abstract text goes here.
+\end{abstract}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%% Front page main text  %%%%%
+
+\begin{fmtext}
+
+\section{Introduction}\label{sec:introduction}
+\lipsum[1]
+\subsection{Motivation}
+\lipsum[2]
+\subsection{How to create front page}
+\lipsum[3-4]
+\end{fmtext}
+
+\maketitle
+\clearpage
+%%%%%%%%%% End of first page  %%%%%
+
+
+\section{Methods}
+\lipsum[6-8]
+
+\section{Results}
+\lipsum[9-10]
+
+\section{Conclusion}
+The conclusion text goes here.\vskip6pt
+
+\enlargethispage{20pt}
+
+\ethics{Insert ethics text here.}
+
+\dataccess{Insert data access text here.}
+
+\aucontribute{Insert author contribute text here.}
+
+\competing{Insert competing text here.}
+
+\funding{Insert funding text here.}
+
+\ack{Insert acknowledgment text here.}
+
+\disclaimer{Insert disclaimer text here.}
+
+%%%%%%%%%% Insert bibliography here %%%%%%%%%%%%%%
+
+\begin{thebibliography}{9}
+
+\bibitem{1} Allwood JM, Cullen JM. 2011 \textit{Sustainable materials:  with both eyes open}.
+Cambridge, UK: UIT Cambridge. See \href{http://www.withbotheyesopen.com}{http://www.withbotheyesopen.com}.
+
+\bibitem{2}  MacKay DJC. 2008  \textit{Sustainable energy:  without the hot air}.
+ Cambridge, UK: UIT Cambridge. See \href{http://www.withouthotair.com}{http://www.withouthotair.com}.
+
+\bibitem{3} Gallman PG. 2011  \textit{Green alternatives and national energy strategy: the facts
+ behind the headlines}.  Baltimore,\ MD: Johns Hopkins University Press.
+
+\bibitem{4} MacKay DJC. 2013.  Solar energy in the context of energy use, energy transportation, and
+ energy storage. \textit{Proc. R. Soc. A} \textbf{371}.
+
+\end{thebibliography}
+
+\end{document}
